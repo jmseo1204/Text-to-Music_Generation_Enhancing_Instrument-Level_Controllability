@@ -1,3 +1,9 @@
+# Paper was uploaded
+You can see exact contents of this project on 'Enhancing Instrument-Level Controllability in Text-to-Music Generation for Professional Songwriting Applications.pdf'
+
+
+
+
 # music_style_transfer_with_instruments
 1) revise audioLDM2-music(https://github.com/huggingface/diffusers/tree/main/src/diffusers/pipelines/audioldm2)
   - customize DDIM scheduling: use Z_0(latent vector of reference music) guidance
@@ -13,7 +19,7 @@
 
 
 
-# [Scripts description]
+# Scripts description
 1) preprocess_dataset.ipynb
 - *If you only want to do style transfer, than this script is useless. This is only for LoRA training*
 - utilized datasets(https://www.kaggle.com/datasets/soumendraprasad/musical-instruments-sound-dataset/data)
