@@ -5,9 +5,11 @@ You can see exact contents of this project on 'Enhancing Instrument-Level Contro
 
 
 # music_style_transfer_with_instruments
-1) revise audioLDM2-music(https://github.com/huggingface/diffusers/tree/main/src/diffusers/pipelines/audioldm2)
+1) generate music fused with several instruments using auto-regressive method
+  - use audioLDM2-music(https://github.com/huggingface/diffusers/tree/main/src/diffusers/pipelines/audioldm2) as a backbone
   - customize DDIM scheduling: use Z_0(latent vector of reference music) guidance
   - guidance strength decay exponentially as reverse process proceeding
+  - deploy output latent vector of generated music to add a new instrument sound on top of it (chain model auto-regressively)
 
 
 
