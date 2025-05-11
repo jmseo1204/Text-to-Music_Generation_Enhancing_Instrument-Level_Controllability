@@ -1,5 +1,5 @@
 # Paper was uploaded
-You can see exact contents of this project on 'Enhancing Instrument-Level Controllability in Text-to-Music Generation for Professional Songwriting Applications.pdf'
+You can see exact contents of this project on **'Enhancing Instrument-Level Controllability in Text-to-Music Generation for Professional Songwriting Applications.pdf'**
 
 
 
